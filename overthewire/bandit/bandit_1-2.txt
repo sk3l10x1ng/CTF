@@ -1,0 +1,12 @@
+
+bandit level 1
+
+steps :-
+
+* check the pwd with ls -la
+
+* you will find a file " - "
+
+* read the file using  cat ./-
+
+level 2 pass : CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9

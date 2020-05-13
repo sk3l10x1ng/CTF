@@ -1,0 +1,17 @@
+
+
+bandit level 2 
+
+steps :
+
+* list the files using ls -la 
+
+* you'll find file " spaces in this filename "
+
+* print using cat and use tab completion
+
+
+cat spaces\ in\ this\ filename
+
+
+level 3 pass : UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK

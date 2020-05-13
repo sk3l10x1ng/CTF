@@ -1,0 +1,8 @@
+
+
+Bandit level 0 
+
+
+cat readme 
+
+level 1 pass : boJ9jbbUNNfktd78OOpsqOltutMc3MY1
