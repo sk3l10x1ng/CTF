@@ -1,0 +1,32 @@
+
+# Bandit level 3
+
+steps :-
+
+    1) list the current dir files 
+      
+    2) then we can see there is a dir called " inhere "
+      
+       "drwxr-xr-x  2 root root 4096 inhere"
+       
+    3) inside the dir "inhere" ,
+    
+       when list the files it will shows no files using cmd "ls"
+    
+       check the hidden files ,
+       
+       so inorder to see the hidden files use the cmd " ls -la "
+       
+    4)  we see a file called " .hidden " .
+        
+        print out using the cmd 
+    
+      ``` sh
+         cat ./hidden
+       ```
+        
+  level 4 pass :- pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+    
+    
+       
+     
