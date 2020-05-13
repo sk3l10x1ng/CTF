@@ -1,10 +1,12 @@
 
 
-#Bandit level 0 
+**Bandit level 0 **
 
 cmd :-
 
-```  cat readme ```
+```shell
+cat readme
+```
 
 
 level 1 pass : boJ9jbbUNNfktd78OOpsqOltutMc3MY1
