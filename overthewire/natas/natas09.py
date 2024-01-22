@@ -26,7 +26,7 @@ def auth(username, password, URL):
         resp = s.get(URL , auth=(username, password), params=params, verify=False)
         content = resp.text
         
-        # Retrive text natas 10 base64 password between the <pre> tag
+        # Retrive text natas 10 base64 password between the <pre></pre>tag
         soup = bs(content, 'html.parser')
         tag = soup.find('pre')
         print(f"natas 10 password :{tag.text}")
